@@ -35,11 +35,11 @@ Single Page Application(SPA) - Html - Javascript
 ##  BASE DE DADOS
 - Criar banco de dados com o comando:
 ```bash
-    mysql  -uXXXXXX -pXXXXX -hlocalhost  -e "CREATE DATABASE CMS"
+    mysql  -uXXXXXX -pXXXXX -hlocalhost  -e "CREATE DATABASE cms"
  ```
 - Criar as Tabelas:
 ```bash
-	mysql   -uXXXXXX -pXXXXX -hlocalhost  CMS < base.sql
+	mysql   -uXXXXXX -pXXXXX -hlocalhost  cms < base.sql
 ```
 
 ## Servidor PHP  
