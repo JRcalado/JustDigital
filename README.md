@@ -1,24 +1,24 @@
 #  back-end
-API REST PHP 
-Autenticação via WEB Token (JWT)
+API Rest php 
+Autenticação via Web Token (JWT)
 ## Requisitos
 - PHP 7.x
 - MYSQL
 ## Bibliotecas usadas
-- *aura/router: Paras Rotas 
-- *zendframework/zend-diactoros: Respose e Request 
-- *xtreamwayz/pimple-container-interop: Container de serviços
-- *illuminate/database: ORM 
+- aura/router: Paras Rotas 
+- zendframework/zend-diactoros: Respose e Request 
+- xtreamwayz/pimple-container-interop: Container de serviços
+- illuminate/database: ORM 
 
 
 #  front-end
-Single Page Application(SPA) - HTML - JAVASCRIPT
+Single Page Application(SPA) - Html - Javascript
 ## Bibliotecas usadas
-- *Jquery
+- Jquery
 
 ##  Instalação API
-- * git clone https://github.com/JRcalado/JustDigital.git
-- * Crdenciais do Banco de Dados  api/config/db.php
+- git clone https://github.com/JRcalado/JustDigital.git
+- Crdenciais do Banco de Dados  api/config/db.php
 
   return [
     'development'=>[
@@ -32,13 +32,15 @@ Single Page Application(SPA) - HTML - JAVASCRIPT
              ]
   ];
 ##  BASE DE DADOS
-- * Criar banco de dados com o comando:
+- Criar banco de dados com o comando:
+.. code-block:: bash
     mysql  -uXXXXXX -pXXXXX -hlocalhost  -e "CREATE DATABASE CMS"
-- * Criar as Tabelas:
+- Criar as Tabelas:
+.. code-block:: bash
     mysql   -uXXXXXX -pXXXXX -hlocalhost  CMS < base.sql
 
 
 ## Servidor PHP  
-- * Execute o comando abaixo dentro da pasta raiz dos arquivos  
+- Execute o comando abaixo dentro da pasta raiz dos arquivos  
     php -S localhost:8000 -t ./
 
