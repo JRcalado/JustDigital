@@ -1,13 +1,27 @@
 #  back-end
 API REST PHP 
-
+Autenticação via WEB Token (JWT)
 ## Requisitos
-- *PHP 7.x
+- PHP 7.x
+- MYSQL
 ## Bibliotecas usadas
 - *aura/router: Paras Rotas 
 - *zendframework/zend-diactoros: Respose e Request 
 - *xtreamwayz/pimple-container-interop: Container de serviços
 - *illuminate/database: ORM 
+
+
+#  front-end
+## Bibliotecas usadas
+- *Jquery
+
+#  Intalação API
+- * git clone https://github.com/JRcalado/JustDigital.git
+- * cd  api/
+- *
+
+
+
 ## Restrições
  - *Não é permitido o uso de frameworks de CMS ou MVC, apenas bibliotecas*
 
