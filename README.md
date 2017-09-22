@@ -19,7 +19,7 @@ Single Page Application(SPA) - Html - Javascript
 ##  Instalação API
 - git clone https://github.com/JRcalado/JustDigital.git
 - Crdenciais do Banco de Dados  api/config/db.php
-
+.. code-block:: php
   return [
     'development'=>[
             'driver' => 'mysql',
