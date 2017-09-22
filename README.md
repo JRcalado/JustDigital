@@ -48,5 +48,5 @@ Single Page Application(SPA) - Html - Javascript
     php -S localhost:8000 -t ./
 ```
 - Senha e Login
-usuario:admin
-password:admin
+usuario:  admin
+password: admin
