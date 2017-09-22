@@ -18,8 +18,8 @@ Single Page Application(SPA) - Html - Javascript
 
 ##  Instalação API
 - git clone https://github.com/JRcalado/JustDigital.git
-- Crdenciais do Banco de Dados  api/config/db.php
-.. code-block:: php
+- Credenciais do Banco de Dados  api/config/db.php
+```php
   return [
     'development'=>[
             'driver' => 'mysql',
@@ -31,16 +31,19 @@ Single Page Application(SPA) - Html - Javascript
             'collation'=>'utf8_unicode_ci'
              ]
   ];
+  ```
 ##  BASE DE DADOS
 - Criar banco de dados com o comando:
-.. code-block:: bash
+```bash
     mysql  -uXXXXXX -pXXXXX -hlocalhost  -e "CREATE DATABASE CMS"
+ ```
 - Criar as Tabelas:
-.. code-block:: bash
-    mysql   -uXXXXXX -pXXXXX -hlocalhost  CMS < base.sql
-
+```bash
+	mysql   -uXXXXXX -pXXXXX -hlocalhost  CMS < base.sql
+```
 
 ## Servidor PHP  
-- Execute o comando abaixo dentro da pasta raiz dos arquivos  
+- Execute o comando abaixo dentro da pasta raiz dos arquivos
+```bash
     php -S localhost:8000 -t ./
-
+```
