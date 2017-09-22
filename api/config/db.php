@@ -5,8 +5,8 @@ return [
             'driver' => 'mysql',
             'host' => 'localhost',
             'database'=> 'cms',
-            'username'=>'desenv',
-            'password'=>'mento',
+            'username'=>'xxxxxx',
+            'password'=>'xxxxxx',
             'charset'=>'utf8',
             'collation'=>'utf8_unicode_ci'
              ]
