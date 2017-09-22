@@ -11,6 +11,7 @@ $(function(){
                 type:'post',		//Definimos o método HTTP usado
                 dataType: 'json',	//Definimos o tipo de retorno
                 url: 'api/login',//Definindo o arquivo onde serão buscados os dados
+                data:{'pass':pass,'user':user},
                
                 success: function(dados){
                     console.log(dados.token);
