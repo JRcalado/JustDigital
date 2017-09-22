@@ -10,9 +10,11 @@ use Psr\Http\Message\ServerRequestInterface;
 class Post{
 
     public function login($request){
-       // $data =$request->getParsedBody();
-        $user= $data['user']='calado';
-        $pass= $data['pass']='123456';
+        $data =$request->getParsedBody();
+      
+        $user= $data['user'];//='admin';
+        $pass= $data['pass'];//='admin';
+
         $comments =  \CMS\Models\Usuario::where('user', '=', $user)
         ->orderBy('id', 'desc')
         ->get(); 
